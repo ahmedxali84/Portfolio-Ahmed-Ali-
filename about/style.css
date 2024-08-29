@@ -1,0 +1,86 @@
+/* Base styles */
+body {
+    background-image: linear-gradient(black,grey);
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Adding a font family for better appearance */
+}
+h1 {
+    font-size: 4rem; /* Using rem units for better scalability */
+}
+
+p {
+    font-size: 2.5rem;
+}
+
+ol {
+    font-size: 1.5rem;
+    padding-top: 10px;
+}
+
+b {
+    color: orangered;
+}
+
+ul {
+    font-size: 1.2rem;
+}
+
+li {
+    color: white;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+
+    ol {
+        font-size: 1.2rem;
+    }
+
+    ul {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    ol {
+        font-size: 1rem;
+    }
+
+    ul {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    ol {
+        font-size: 0.9rem;
+    }
+
+    ul {
+        font-size: 0.8rem;
+    }
+}
